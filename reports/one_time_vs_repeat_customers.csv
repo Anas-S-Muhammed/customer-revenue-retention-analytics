@@ -1,0 +1,3 @@
+customer_type,customers,revenue,average_revenue_per_customer,average_orders_per_customer
+One-time customer,1493,613989.561,411.24551975887476,1.0
+Repeat customer,2845,8273228.163,2907.988809490334,5.989455184534271
