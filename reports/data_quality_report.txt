@@ -1,0 +1,41 @@
+CUSTOMER REVENUE AND RETENTION ANALYTICS
+DATA QUALITY REPORT
+==================================================
+
+Rows checked: 530,104
+Columns checked: 9
+
+QUALITY CHECKS
+--------------------------------------------------
+duplicate_rows: 5,222
+missing_invoice_numbers: 0
+missing_product_codes: 0
+missing_descriptions: 0
+missing_customer_ids: 132,220
+missing_dates: 0
+missing_revenue: 0
+negative_quantities: 0
+zero_quantities: 0
+negative_prices: 0
+zero_prices: 0
+negative_revenue: 0
+invalid_revenue_calculations: 0
+duplicate_invoice_product_rows: 20,028
+
+CUSTOMER ANALYSIS DATASET
+--------------------------------------------------
+Rows with CustomerID: 397,884
+Unique customers: 4,338
+Unique invoices: 18,533
+Customer-attributed revenue: 8,911,407.90
+
+DATE RANGE
+--------------------------------------------------
+Earliest date: 2010-12-01 08:26:00
+Latest date: 2011-12-09 12:50:00
+
+INTERPRETATION
+--------------------------------------------------
+Rows with missing CustomerID remain in the main sales dataset for overall revenue analysis.
+Rows with missing CustomerID are excluded from customer retention analysis because they cannot be linked to a customer.
+Large quantities are retained because they may represent legitimate wholesale transactions.
