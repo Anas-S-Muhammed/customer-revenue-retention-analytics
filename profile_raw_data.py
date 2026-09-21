@@ -2,6 +2,10 @@ from pathlib import Path
 import pandas as pd
 
 
+
+
+
+
 file_path = ("data/raw/Online Retail.xlsx")
 df = pd.read_excel(file_path)
 
